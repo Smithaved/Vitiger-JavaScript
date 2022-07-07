@@ -11,9 +11,10 @@ var laptop={
     }
 }
 var laptop1=Object.create(laptop)
-laptop1__proto__=laptop
+laptop1.__proto__=laptop
 laptop1.os="Windows 7"
 laptop1.brand="Dell"
-console.log(laptop);
+// console.log(laptop);
 console.log(laptop1);
 console.log(laptop1.configaration);
+console.log(laptop1.cost());

@@ -33,15 +33,15 @@ class company{
     }
 }
 var c1=new company("Test Yantra","katergupee")
-console.log(c1.company_name);
-console.log(c1.noOfEmployees);
-console.log(company.timing);
+// console.log(c1.company_name);
+// console.log(c1.noOfEmployees);
+// console.log(company.timing);
  var c2=new company("Usha","katergupee")
-console.log(c2.location);
-console.log(c2.noOfEmployees);
-console.log(company.timing);
-console.log(c2);
+// console.log(c2.location);
+// console.log(c2.noOfEmployees);
+// console.log(company.timing);
+// console.log(c2);
 c1.display()
-company.display1(c2)
- company.sample1(c1);
-c2.sample2()
+// company.display1(c2)
+//  company.sample1(c1);
+// c2.sample2()

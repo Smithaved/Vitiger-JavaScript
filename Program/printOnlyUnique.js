@@ -1,4 +1,4 @@
-var s="Hi I am I Smitha Hi I am"
+var s="Hi I am Smitha Hi"
 var a=s.split(" ")
 for(var i=0;i<a.length;i++)
 {
@@ -9,10 +9,7 @@ for(var i=0;i<a.length;i++)
             count++
         }
     });
-    if(count>=2){
-        a.pop(a[i]);
-        }
+    if(count==1){
+    console.log(a[i]);
+    }
 }
-console.log(a);
-
-

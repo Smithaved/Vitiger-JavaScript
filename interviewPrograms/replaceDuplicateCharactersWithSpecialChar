@@ -1,0 +1,100 @@
+var s="javava"
+var a=[]
+for (let index = 0; index < s.length; index++) {
+    a.push(s.charAt(index))
+    
+}
+console.log(a);
+for (let i = 0; i < a.length; i++) {
+    for (let j = i+1; j < a.length; i++) {
+        if(a[i]==a[j])
+        {
+            a.splice(j,1)
+        }
+    }
+    
+}
+console.log(a);
+// var s1=""
+// for (var i = 0; i < s.length; i++) {
+//     var count=0
+//     for (var j = i; j < s.length; j++) {
+        
+//         if(s.charAt(i)==s.charAt(j))
+//         {
+//             count++
+//         }
+//     }   
+//     console.log(s.charAt(i)+"="+count); 
+//     // if(count>=2)
+//     // {
+//     //     s1=s.replaceAll(s.charAt(i),'$')
+//     // }
+    
+// }
+// console.log(s1);
+
+
+
+// console.log(s);
+
+
+
+
+
+
+
+
+
+
+
+
+// var ch=[]
+// var s2=""
+// for (let i = 0; i < s.length; i++) {
+//     ch[i]=s.charAt(i)    
+// }
+// for(var i=0;i<ch.length;i++)
+// {
+//     var count=0;
+//     ch.forEach(element => {
+//         if(ch[i]==element)
+//         {
+//             count++
+//         }
+//     });
+//     if(count>=2){
+//         console.log();
+//         }
+    
+// }
+// console.log(repeatedchar);
+// console.log(ch);
+// for (let index = 0; index < s.length; index++) {
+   
+//         if(repeatedchar==s.charAt(i))
+//         {
+//             s=s.replace(repeatedchar,"#")
+//             console.log(s);
+//         }  
+
+// }
+// // console.log(s2);
+
+// var str = "javavava";
+// var s=""
+// var counts = {};
+// var ch, index, count;
+// for (index = 0; index < str.length; index++) 
+// {
+//     ch = str.charAt(index);    
+//     count = counts[ch];
+//     counts[ch] = count ? count + 1 : 1;
+//     if(counts[ch]>=2)
+// {
+//     console.log(counts[ch]);
+//     s=str.replaceAll(str.charAt(index),"$" )
+// }
+// }
+// console.log(counts);
+// console.log(s);
