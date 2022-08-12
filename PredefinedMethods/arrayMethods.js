@@ -90,7 +90,7 @@ It combines 2 or more array this method returns a new array without modifying an
 // it will perform the task given in the call back function and returns void. 
 // Implemented by map method of an array, but it will not modify the existing array */
 // console.log(num);
-// num.forEach((element,index)=>{
+// num.forEach((index)=>{
     
 //         console.log(num[index]);
 // })
@@ -107,14 +107,14 @@ but it will not modify the existing array */
 it will return the array based on filter condition i.e. it will return the elements 
 in the form of array that only satisfies the given filter condition, 
 it will not modify the existing array */
-console.log(num);
-console.log(num.filter((a)=>{if(a>4) return b}));
-console.log(num);
+// console.log(num);
+// console.log(num.filter((a)=>{if(a>4) return b}));
+// console.log(num);
 
 // /*array.reduce((previousValue, currentValue)=>{})
 // it will reduce the entire array into a single unit/ to the required form(array,object,number) */
-// console.log(num);
-// console.log(num.reduce((a,b)=>{return a+b}));
+console.log(num);
+console.log(num.reduce((a,b)=>{return a+b}));
 
 // /*array.reduceRight(((previousValue, currentValue)=>{})
 // similar to reduce method but traversing is from right to left */
